@@ -24,15 +24,17 @@ export default function Hero() {
             <div className='image-outside-box'><p>24/7, 365 transaction tracking</p></div>
             <div className='box'></div>
 <img src={SideImage} alt="flat lay with laptop and headphones" />
-
+<div className='line'></div>
         </div>
         </div>
         <div className='discover-more'>
             <div className='discover-more-content'>
             <div className='box'><span>Discover More</span> <img src={ArrowRight} alt="arrow right with circle" className='arrow-right'/></div>
             <img src={BottomImage} alt="travel concert with document" className='img'/>
+            
             </div>
             <div className='side-box'></div>
+           
         </div>
       
     </div>
