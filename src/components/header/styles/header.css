@@ -13,8 +13,7 @@ header {
 }
 
 .header-logo {
-    width: 200px;
-    height: 150px;
+    width: 25%;
     margin-top: 2rem;
     padding-left: 6.5rem;
     /* background: #DEFC7B; */
@@ -25,7 +24,9 @@ header {
    
    
 }
-
+.header-logo img {
+    width: 25%;
+}
 .header-nav ul{
     display: flex;
     align-items: center;

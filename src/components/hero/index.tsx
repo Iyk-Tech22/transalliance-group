@@ -1,4 +1,4 @@
-import React from 'react'
+
 import SideImage from './assets/laptop-headphone.jpg'
 import BottomImage from './assets/travel-document.jpg'
 import ArrowRight from './assets/arrow-right-circle.svg'
@@ -17,6 +17,7 @@ export default function Hero() {
         <div className='hero-content-text'><p className='title'>Simplified cross-border payment</p>
         <h1>We are the payments people</h1>
         <p className='hero-content-long-text'>Transalliance Group.’s cross-border payments solutions connect organisations and communities globally to the network they need to thrive. Together, we make money move.</p>
+        <div className='discover-box'><span>Discover More</span> <img src={ArrowRight} alt="arrow right with circle" className='arrow-right'/></div>
         </div>
        
         <div className='hero-content-image'>
@@ -29,7 +30,7 @@ export default function Hero() {
         </div>
         <div className='discover-more'>
             <div className='discover-more-content'>
-            <div className='box'><span>Discover More</span> <img src={ArrowRight} alt="arrow right with circle" className='arrow-right'/></div>
+           
             <img src={BottomImage} alt="travel concert with document" className='img'/>
             
             </div>

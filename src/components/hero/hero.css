@@ -4,9 +4,11 @@
     grid-template-columns: 1fr;
     width: 100%;
     border: none;
+    
 
 }
 .hero-content {
+    padding-top: 3rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -130,10 +132,10 @@ background: linear-gradient(250deg, rgba(18,32,48,1) 5%, rgba(30, 230, 100, 0.62
     background: linear-gradient(300deg, rgba(18,32,48,1) 48%, rgba(30, 230, 100, 0.626) 100%);
 }
 
-.discover-more .arrow-right {
-    width: 10%;
+.arrow-right {
+    width: 15%;
 }
-.discover-more .box {
+.discover-box {
     position: absolute;
     width: 300px;
     height: 70px;
@@ -144,10 +146,11 @@ background: linear-gradient(250deg, rgba(18,32,48,1) 5%, rgba(30, 230, 100, 0.62
 border-image-source: linear-gradient(110.49deg, rgba(255, 255, 255, 0.6) 7.36%, rgba(255, 255, 255, 0) 63.6%);
 border-radius: 15px;
 left: 100px;
-top: -40px;
+top: 410px;
 color: #fff;
 display: flex;
 justify-content: space-between;
+align-items: center;
 
 
 
@@ -183,9 +186,10 @@ background: linear-gradient(150deg, rgba(18,32,48,1) 45%, rgba(89, 194, 126, 0.6
 /* 
 border-image-source: linear-gradient(110.49deg, rgba(255, 255, 255, 0.6) 7.36%, rgba(255, 255, 255, 0) 63.6%); */
 background: linear-gradient(180deg, rgb(195, 211, 200) 40%, rgba(255,255,255,1) 48%);
-border-top-right-radius: 15px;
-border-top-left-radius: 15px;
+border-radius: 15px;
 
+/* border: 1px solid #000; */
+box-shadow: 0 4px 10px rgb(237, 237, 237); /* White shadow */
 backdrop-filter: blur(91px);
 width:90%;
 height: 250px;
