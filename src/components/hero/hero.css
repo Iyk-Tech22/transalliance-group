@@ -186,7 +186,7 @@ background: linear-gradient(150deg, rgba(18,32,48,1) 45%, rgba(89, 194, 126, 0.6
    
 /* 
 border-image-source: linear-gradient(110.49deg, rgba(255, 255, 255, 0.6) 7.36%, rgba(255, 255, 255, 0) 63.6%); */
-background: linear-gradient(180deg, rgb(222, 249, 231) 40%, rgba(255,255,255,1) 48%);
+background: linear-gradient(180deg, rgba(0, 214, 75, 0.096) 40%, rgb(255, 255, 255) 48%);
 border-radius: 15px;
 
 /* border: 1px solid #000; */

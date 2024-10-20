@@ -54,6 +54,7 @@ header {
     text-align: center;
     border-radius: 15px;
     background-color: #5BFB94;
+    cursor: pointer;
 }
 
 .header-btn a {
