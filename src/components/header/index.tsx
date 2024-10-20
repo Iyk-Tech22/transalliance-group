@@ -23,7 +23,7 @@ export default function Header() {
                 <a href="#contact">Contact Us</a> 
                 </li>
                 <li className='header-btn'>
-                <a href="#getStarted">Get Started </a> 
+                <a href="#home">Get Started </a> 
                 <img src={Arrow} alt="arrow" className='header-arrow' />
                 </li>
             </ul>

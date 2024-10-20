@@ -12,7 +12,7 @@ import './hero.css'
 export default function Hero() {
   return (
     <>
-    <div className='hero-container'>
+    <div className='hero-container' id='home'>
         <div className='hero-content'>
         <div className='hero-content-text'><p className='title'>Simplified cross-border payment</p>
         <h1>We are the payments people</h1>

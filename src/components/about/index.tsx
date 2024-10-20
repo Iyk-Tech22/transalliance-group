@@ -44,7 +44,8 @@ export default function About() {
             <div className='box-btn'> <p>Learn More</p> <img src={ArrowRight} alt="arrow right with circle" className='arrow-right'/></div>
         </div>
         <div className='image-1'>
-<img src={Person4} alt="" />
+            <div><img src={Person4} alt="" /></div>
+
 <img src={Logo} alt=""  className='logo'/>
         </div>
      </div>

@@ -9,6 +9,7 @@ header {
     background: linear-gradient(90deg, rgba(18, 35, 24, 0.626) 0%, rgba(18,32,56,1) 35%);
    
     backdrop-filter: blur(532px);
+    width: 100%;
   
 }
 

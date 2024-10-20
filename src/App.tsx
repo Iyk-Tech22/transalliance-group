@@ -1,8 +1,11 @@
 import './App.css'
 import About from './components/about'
-import Header from './components/header/index'
+import Contact from './components/contact'
+import Footer from './components/footer'
+import Header from './components/header'
 import Hero from './components/hero'
 import Main from './components/Main'
+import Service from './components/service'
 
 function App() {
 
@@ -12,6 +15,9 @@ function App() {
     <Main>
     <Hero />
     <About />
+    <Service />
+    <Contact />
+    <Footer />
     </Main>
    
     </>

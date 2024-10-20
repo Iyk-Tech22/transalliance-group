@@ -1,0 +1,149 @@
+.contact-container {
+    background: #F5F5F5;
+    padding-right: 3.5rem;
+    padding-left: 3.5rem;
+    padding-bottom: 2rem;
+    display: flex;
+    width: 100%;
+}
+
+.contact-container .image-container {
+    width: 50%;
+}
+
+.contact-container .image-container img {
+    width: 100%;
+    padding: 3.5rem;
+}
+
+.contact-container .contact-form {
+    width: 50%;
+}
+.contact-container .contact-form  form  {
+    background-color: #fff;
+    backdrop-filter: blur(19px);
+    border: 1px solid #fff;
+    border-radius: 15px;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+   
+}
+.contact-container .contact-form form .form-content {
+    display: flex;
+    flex-direction: column;
+    padding-left: 5rem;
+}
+.contact-container .contact-form form h1{
+font-weight: 500;
+line-height: 1;
+font-size: 24px;
+margin-bottom: 10px;
+}
+.contact-container .contact-form  form label {
+    color: #122038;
+    font-weight: 500;
+    font-size: 15px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+
+}
+.contact-container .contact-form  form input[type='text'] {
+    height: 30px;
+    width: 80%;
+    border-radius: 5px;
+    padding-left: .5rem;
+}
+
+.contact-container .contact-form  form textarea {
+    height: 80px;
+    width: 80%;
+    border-radius: 5px;
+    padding-left: .5rem;
+    padding-top: .5rem;
+}
+.contact-container .contact-form  form .agree-content {
+
+    width: 100%;
+    margin-top: 20px;
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  
+}
+.contact-container .contact-form  form .agree-content input[type='checkbox'] {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+ 
+    
+}
+.agree-content:hover input[type='checkbox'] ~ .checkmark {
+    background-color: #122038;
+    
+  }
+  
+  /* When the checkbox is checked, add a blue background */
+  .agree-content input[type='checkbox']:checked ~ .checkmark {
+    background-color: #122038;
+  }
+  .checkmark {
+  
+        position: absolute;
+        top: 5px;
+        left: 0;
+        height: 25px;
+        width: 25px;
+        background-color: #fff;
+        border: 1px solid #122038;
+      
+      
+}
+
+.checkmark:after {
+    content: '';
+    position: absolute;
+    display: none;
+}
+
+.contact-container .contact-form  form .agree-content input[type='checkbox']:checked ~ .checkmark:after {
+    display: block;
+}
+
+.contact-container .contact-form  form .agree-content .checkmark:after{
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.contact-container .contact-form  form  .btn {
+    width: 35%;
+    padding: .5rem 1rem;
+    background: linear-gradient(264.61deg, #24343E -97.02%, #5AAF87 133.21%);
+border-radius: 10px;
+border: 1px solid #24343E ;
+display: flex;
+align-items: center;
+justify-content: space-between;
+font-size: 18px;
+font-weight: 500;
+margin-top: 30px;
+cursor: pointer;
+}
+.contact-container .contact-form  form  .btn img {
+    width: 50%;
+}
