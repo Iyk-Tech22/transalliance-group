@@ -1,5 +1,5 @@
 
-import React, { useState } from 'react';
+import { useState } from 'react';
 import './NavBar.css'; // Import your CSS file
 import Logo from '/logo.svg'
 import Arrow from './assets/arrow.svg'
@@ -15,7 +15,7 @@ const NavBar = () => {
       <button className="mobile-nav-toggle" onClick={() => setIsMobileNavOpen(!isMobileNavOpen)}>
       <i className={`fas ${isMobileNavOpen ? 'fa-times fa-lg' : 'fa-ellipsis-v fa-lg'}`}></i>
       </button>
-    
+    {/* Desktop view */}
       <ul className='desktop-nav'>
         <li><a href="#home" onClick={handleNavItemClick}>Home</a></li>
         <li><a href="#about" onClick={handleNavItemClick}>About</a></li>
@@ -29,7 +29,7 @@ const NavBar = () => {
       </ul>
 
         
-         
+         {/* Mobile view */}
     
       <ul className={`mobile-nav ${isMobileNavOpen ? 'open' : ''}`}>
         <li><a href="#home" onClick={handleNavItemClick}>Home</a></li>
