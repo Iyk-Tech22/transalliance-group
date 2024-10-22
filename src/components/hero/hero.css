@@ -224,7 +224,7 @@ padding-top: 2.5rem;
         flex-direction: column;
         align-items: start;
         width: 100%;
-        overflow: hidden;
+        /* overflow: hidden; */
     }
     .hero-content .hero-content-text {
         padding-left: 2rem;
