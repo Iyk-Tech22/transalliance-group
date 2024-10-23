@@ -186,4 +186,7 @@ cursor: pointer;
         top: 0;
         left: 5px;
     }
+    .contact-container .contact-form form .btn  {
+        width: 65%;
+    }
 } 
