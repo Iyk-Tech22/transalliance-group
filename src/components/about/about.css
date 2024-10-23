@@ -382,3 +382,77 @@ background: linear-gradient(90deg, rgba(250, 247, 247, 0.87) 0%, rgba(255, 255, 
     top: 10px;
     right: 50px;
 }
+
+@media (max-width:478px) {
+    .about-section {
+        flex-direction: column;
+        justify-content: center;
+        padding: 0 2rem;
+    } 
+    .about-section div {
+        width: 100%;
+    }
+    .about-section div h1 {
+        width: 100%;
+        font-size: 24px;
+        margin-top: 10px;
+    }
+    .about-section div p {
+        width: 100%;
+    }
+    .row-1 {
+        flex-direction: column;
+        padding: 0 2rem;
+    }
+    .row-1 div  {
+        width: 100%;
+    }
+    .row-1 .image-1 img {
+        width: 100%;
+    }
+    .row-1 .image-1 .box-btn {
+        top: -30px;
+        left: 140px;
+    }
+    .row-1 .image-2 {
+        top: 50px;
+    }
+    .row-1 .image-2 .line {
+        display: none;
+    }
+    .row-1 .box {
+        right: 0px;
+        top: 280px;
+        width: 300px;
+    }
+    .row-2 {
+        flex-direction: column;
+
+    }
+    .row-2 .image-1 {
+        top: 90px;
+    }
+    .row-2 .image-1 .box {
+        right: 70px;
+        top: 80px;
+    }
+    .row-2 .image-2 .box-btn-l  {
+        left: 0;
+    }
+    .row-3  {
+        flex-direction: column-reverse;
+    }
+    .row-3 .image-1 {
+        width: 100%;
+    }
+    .row-3 .content {
+        width: 100%;
+        margin-top: 0;
+        padding-left: 2rem;
+        padding-top: 2rem;
+    }
+    .row-3 .content h1 {
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+}

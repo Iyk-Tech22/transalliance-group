@@ -17,6 +17,7 @@ export default function Footer() {
             <p>Denmark:Toldbodgade 55B1253, Copenhagen United Kingdom:  </p>
             <p>1 PoultryEC2R 8EJ, London info@inpay.comPhone: +45 88 610 600</p>
         </div>
+        <div className='two-items'>
         <div className='items'>
             <h3>Solutions</h3>
             <p>Money Out</p>
@@ -28,6 +29,8 @@ export default function Footer() {
         <p>Corporates</p>
         <p>NGOs</p>
         </div>
+        </div>
+   
        
 <div className='item-4 items'>
     <h3>

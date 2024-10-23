@@ -13,7 +13,7 @@ const NavBar = () => {
  return         <nav  className={`navbar ${isMobileNavOpen ? 'open' : ''}`}>
       <div className='logo'><img src={Logo} alt="Logo" /> </div>
       <button className="mobile-nav-toggle" onClick={() => setIsMobileNavOpen(!isMobileNavOpen)}>
-      <i className={`fas ${isMobileNavOpen ? 'fa-times fa-lg' : 'fa-ellipsis-v fa-lg'}`}></i>
+      <i className={`fas ${isMobileNavOpen ? 'fa-times fa-lg' : 'fa-bars fa-lg'}`}></i>
       </button>
     {/* Desktop view */}
       <ul className='desktop-nav'>

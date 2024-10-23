@@ -72,7 +72,7 @@ margin-bottom: 10px;
     padding-left: 35px;
     margin-bottom: 12px;
     cursor: pointer;
-    font-size: 22px;
+    font-size: 15px;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
@@ -148,3 +148,42 @@ cursor: pointer;
 .contact-container .contact-form  form  .btn img {
     width: 50%;
 }
+
+@media (max-width: 478px) {
+    .contact-container  {
+        padding: 1.5rem 2rem;
+        flex-direction: column;
+    }
+    .contact-container .image-container {
+        width: 100%;
+        margin-top: 30px;
+        
+    }
+    .contact-container .image-container img {
+        padding: 0;
+    }
+    .contact-container .contact-form {
+        width: 100%;
+        margin-top: 15px;
+    }
+    .contact-container .contact-form form .form-content {
+        padding-left: 2rem;
+    }
+    .contact-container .contact-form form input[type='text'] {
+        width: 100%;
+    }
+    .contact-container .contact-form form textarea {
+        width: 100%;
+    }
+    .checkmark  {
+        height: 15px;
+        width: 15px;
+    }
+    .contact-container .contact-form form .agree-content {
+        font-size: 12px;
+    }
+    .contact-container .contact-form form .agree-content .checkmark:after {
+        top: 0;
+        left: 5px;
+    }
+} 
